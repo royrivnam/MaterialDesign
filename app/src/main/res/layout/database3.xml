@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="15dp"
+    android:background="@drawable/border_grey">
+<RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+   android:background="@drawable/birds"
+    android:alpha="0.15" />
+
+
+
+
+<TextView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_alignParentTop="true"
+    android:text="Humidity:"
+    android:id="@+id/t1"
+    android:textSize="20dp"
+    android:textColor="#353434"
+    android:textStyle="bold" />
+    <RadioGroup
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="53dp"
+        android:layout_alignParentBottom="true"
+        android:id="@+id/radiogroup">
+
+        <RadioButton
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Dry or Low"
+            android:id="@+id/r1"
+            android:checked="false"
+            android:textSize="18dp"/>
+
+        <RadioButton
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Normal or Medium"
+            android:id="@+id/r2"
+            android:layout_marginTop="10dp"
+            android:checked="false"
+            android:textSize="18dp"/>
+
+        <RadioButton
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Wet or High"
+            android:id="@+id/r3"
+            android:layout_marginTop="10dp"
+            android:checked="false"
+            android:textSize="18dp"/>
+    </RadioGroup>
+
+
+</RelativeLayout>

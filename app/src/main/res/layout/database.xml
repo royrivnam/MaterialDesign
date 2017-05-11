@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="15dp"
+    android:background="@drawable/border_grey">
+<RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+   android:background="@drawable/birds"
+    android:alpha="0.15" />
+
+<TextView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_alignParentTop="true"
+    android:text="Your Name:"
+    android:id="@+id/t1"
+    android:textSize="20dp"
+    android:textColor="#353434"
+    android:textStyle="bold" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/e1"
+        android:layout_below="@+id/t1"         />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/e1"
+        android:layout_marginTop="10dp"
+        android:text="Your Location:"
+        android:id="@+id/t2"
+        android:textSize="20dp"
+        android:textColor="#353434"
+        android:textStyle="bold" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/e2"
+        android:layout_below="@+id/t2"         />
+
+
+</RelativeLayout>
